@@ -48,6 +48,7 @@ hr {
   position: relative;
   height: 100%;
   width: 100%;
+  overflow: hidden;
   max-width: 375px;
   box-sizing: border-box;
   background: #000;
@@ -60,7 +61,7 @@ hr {
 }
 .content-container {
   top: 0;
-  bottom: 96px;
+  bottom: 10px;
   overflow: auto;
   left: 0;
   right: 0;
