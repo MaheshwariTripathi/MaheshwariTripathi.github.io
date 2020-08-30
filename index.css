@@ -48,9 +48,10 @@ hr {
   position: relative;
   height: 100%;
   width: 100%;
-  max-width: 375px;
+  min-width: 375px;
   box-sizing: border-box;
   background: #000;
+  overflow: hidden;
 }
 /* css page 1 */
 .header{
