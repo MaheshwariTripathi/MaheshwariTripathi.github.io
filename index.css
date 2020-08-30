@@ -1,0 +1,159 @@
+/* fonts */
+@font-face {
+  font-family: HELVETICANEUE;
+  src: url(HELVETICANEUE-ULTRALIGHT.OTF);
+}
+@font-face {
+  font-family: HELVETICANEUE-L;
+  src: url(HELVETICANEUE-LIGHT.OTF);
+}
+/* common css for all screens */
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  font-size: 14px;
+  overflow: hidden;
+  font-family: 'HELVETICANEUE', sans-serif;
+  letter-spacing: 1.2px;
+}
+*{
+  box-sizing: border-box;
+}
+hr {
+    height: 1px;
+    background-color: #cccccc42;
+    border: none;
+}
+/* common styling */
+.mb-5{
+  margin-bottom: 5px!important;
+}
+.float-l{
+  float: left;
+}
+.float-r{
+  float: right;
+}
+.text-center{
+  text-align: center;
+}
+.text-white{
+  color: #fff;
+}
+.mainContainer{
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 375px;
+  box-sizing: border-box;
+  background: #000;
+}
+/* css page 1 */
+.header{
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+}
+.content-container {
+  top: 0;
+  bottom: 96px;
+  overflow: auto;
+  left: 0;
+  right: 0;
+  position: absolute;
+}
+.card{
+  margin-bottom: 20px;
+}
+.slide{
+  height: 245px;
+}
+.slick-dots {
+    bottom: 0;
+}
+.property img{
+    height: 100%;
+    width: 100%;
+}
+.slick-dots li{
+  position: relative;
+  display: inline-block;
+  width: 0px;
+  height: 8px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer;
+}
+.card-footer{
+  height:65px;
+  width: 100%;
+  background: #313131;
+}
+.price{
+  width: 40%;
+  display: inline-block;
+}
+.info{
+  width: 50%;
+  display: inline-block;
+}
+.card-footer p , .card-footer h2{
+  margin: 0;
+}
+.card-footer h2{
+  font-family: 'HELVETICANEUE-L', sans-serif;
+}
+.card-footer{
+  padding: 5px 20px;
+}
+.dot {
+    height: 3px;
+    width: 3px;
+    border-radius: 2px;
+    background: #000;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+small{
+  font-size: 10px;
+  position: relative;
+  bottom: 3px;
+}
+.menu-footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 76px;
+}
+.option{
+  display: inline-block;
+}
+.menu {
+    display: inline-block;
+    background: #656565;
+    padding: 4px 6px;
+    border-radius: 4px;
+    margin: 5px 15px;
+    margin-bottom: 5px;
+}
+.menu img {
+    height: 20px;
+}
+.more-options {
+    width: 18px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+.dot-o {
+    height: 6px;
+    width: 6px;
+    background: #fff;
+    border-radius: 4px;
+    margin: 3px 0;
+}
